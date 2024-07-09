@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(mpc_planner)
 
 get_filename_component(PROJECT_ROOT_DIR ${CMAKE_SOURCE_DIR} DIRECTORY)
-include(${PROJECT_ROOT_DIR}/3rd/conanbuildinfo.cmake)
+include(${PROJECT_ROOT_DIR}/src/ros_motion_planning/3rd/conanbuildinfo.cmake)
 conan_basic_setup()
 
 find_package(catkin REQUIRED COMPONENTS
